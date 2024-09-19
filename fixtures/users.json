@@ -1,0 +1,63 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$iYPv3S0bEsGe6q5ZaBv9OM$7XjP4CY65aV0jiNqf/pVMSQ7EVN4lD3/qwzMmNFHuoA=",
+      "last_login": "2024-09-18T17:58:30.422Z",
+      "is_superuser": true,
+      "username": "",
+      "is_staff": true,
+      "date_joined": "2024-09-18T17:22:09.400Z",
+      "email": "admin@admin.com",
+      "first_name": "Admin",
+      "last_name": "SuperUser",
+      "phone": null,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$vh59Xy8G291KSsdjsgB4Pm$wHhbMrI3L3GNMp5dCsCfcj0l52jI+OzzAHeI8psfA8g=",
+      "last_login": "2024-09-19T16:00:32.712Z",
+      "is_superuser": false,
+      "username": "operator_1",
+      "is_staff": true,
+      "date_joined": "2024-09-19T15:49:21.515Z",
+      "email": "operator_1@staff.com",
+      "first_name": "Operone",
+      "last_name": "User",
+      "phone": null,
+      "is_active": true,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$3sZav3nd5Zo8B2Z46oV9Nd$AxZtsq8bIvkopVxa2GhcACuAADtg8n7+75MMjNin1Tc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "operator_2",
+      "is_staff": true,
+      "date_joined": "2024-09-19T15:50:22Z",
+      "email": "operator_2@staff.com",
+      "first_name": "Opertwo",
+      "last_name": "Usernoactiv",
+      "phone": null,
+      "is_active": false,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  }
+]
